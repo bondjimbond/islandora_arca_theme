@@ -1907,45 +1907,46 @@ tr.selected td {
 /* line 6, ../sass/components/_page.scss */
 .front #content {
   padding: 0px !important;
+  display: none;
 }
 
-/* line 12, ../sass/components/_page.scss */
+/* line 13, ../sass/components/_page.scss */
 .not-front #edit-simple {
   padding-top: 2px;
 }
 
-/* line 17, ../sass/components/_page.scss */
+/* line 18, ../sass/components/_page.scss */
 .nav-inner-wrapper {
   padding-top: 4px;
   width: 100%;
 }
 
-/* line 21, ../sass/components/_page.scss */
+/* line 22, ../sass/components/_page.scss */
 footer .nav-inner-wrapper {
   display: inherit;
 }
 
-/* line 26, ../sass/components/_page.scss */
+/* line 27, ../sass/components/_page.scss */
 .not-front footer .block {
   margin-bottom: 0em;
 }
 
-/* line 31, ../sass/components/_page.scss */
+/* line 32, ../sass/components/_page.scss */
 .region-sidebar-first {
   border-radius: 5px;
 }
 
-/* line 35, ../sass/components/_page.scss */
+/* line 36, ../sass/components/_page.scss */
 .adv_search {
   color: white !important;
 }
 
-/* line 40, ../sass/components/_page.scss */
+/* line 41, ../sass/components/_page.scss */
 #edit-simple h1 {
   color: white !important;
 }
 
-/* line 45, ../sass/components/_page.scss */
+/* line 46, ../sass/components/_page.scss */
 .front-menu-wrapper {
   display: table !important;
   width: 100%;
