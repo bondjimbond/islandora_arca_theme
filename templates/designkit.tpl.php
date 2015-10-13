@@ -10,23 +10,23 @@
  */
 
 #header {
-      background: <?php print $header ?>;   
+      background: <?php print $header ?>;
 }
 
 #main {
-      background: <?php print $main ?>;  
+      background: <?php print $main ?>;
 }
 
 #navigation {
-      background: <?php print $navigation ?>;   
+      background: <?php print $navigation ?>;
 }
 
 #footer {
-      background: <?php print $footer ?>;   
+      background: <?php print $footer ?>;
 }
 
 .sidebar {
-      background: <?php print $sidebars?>;  
+      background: <?php print $sidebars?>;
 }
 
 #page-title {
@@ -35,7 +35,7 @@
 }
 
 .not-front footer{
-  border-top-color: <?php print $footer_top?>;
+  border-top:5px solid <?php print $footer_top?>;
 }
 /*In this case, `designkit_colorshift` is used to darken the background color
 (e.g. 10% black fill) when used for `#page-title` and the text color is set to
