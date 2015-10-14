@@ -41,7 +41,14 @@
   <?php endif; ?>
 </head>
 
+<?php if (isset($slideshow_data)):?>
 <body class="<?php print $classes; ?>" <?php print $attributes;?> style="background: url('<?php print $slideshow_data['background_image']; ?>') no-repeat center center fixed; background-size: cover;">
+<?php endif;?>
+<?php if (!isset($slideshow_data)):?>
+<body class="<?php print $classes; ?>" <?php print $attributes;?>">
+<?php endif;?>
+
+
   <?php if ($skip_link_text && $skip_link_anchor): ?>
     <p id="skip-link">
       <a href="#<?php print $skip_link_anchor; ?>" class="element-invisible element-focusable"><?php print $skip_link_text; ?></a>
@@ -55,11 +62,14 @@
     <?php print $islandora_front_page_search?>
     </div>
   </div>
+  <?php if (isset($slideshow_data)):?>
   <div class="boundry">
     <div class="background-link">
       <?php print $slideshow_data['background_link']; ?>
     </div>
   </div>
+  <?php endif;?>
+
   <?php endif;?>
   <?php print $page_bottom; ?>
 </body>

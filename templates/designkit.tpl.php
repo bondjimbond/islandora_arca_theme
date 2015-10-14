@@ -29,11 +29,6 @@
       background: <?php print $sidebars?>;
 }
 
-#page-title {
-  background: <?php print designkit_colorshift($background, '#000000', .1) ?>;
-  color: <?php print (designkit_colorhsl($background, 'l') > .5) ? '#fff' : '#000' ?>;
-}
-
 .not-front footer{
   border-top:5px solid <?php print $footer_top?>;
 }
