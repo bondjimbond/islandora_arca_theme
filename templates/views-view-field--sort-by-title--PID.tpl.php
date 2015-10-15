@@ -25,4 +25,7 @@
 <div
   class="sort-by-div-image-wrapper"
   style="background: url(/islandora/object/<?php print $output?>/datastream/TN/view) no-repeat center center; background-size: cover; width:80px; height: 80px;">
+  <a href="/islandora/object/<?php print $output?>">
+   <div class="sort-by-image-link"></div>
+  </a>
 </div>

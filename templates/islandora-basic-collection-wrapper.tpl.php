@@ -10,7 +10,7 @@
 
 <div class="islandora-basic-collection-wrapper">
 
-  <?php if ($display_metadata):?>
+  <?php if (isset($description)):?>
   <?php print $description; ?>
   <?php endif;?>
   <?php print views_embed_view('sort_by_title', 'block'); ?>
@@ -34,7 +34,7 @@
     <?php print $collection_content; ?>
     <?php print $collection_pager; ?>
   </div>
-  <?php if ($display_metadata): ?>
+  <?php if ($display_metadata && theme_get_setting('bceln_theme_collections_meta') == 1): ?>
     <div class="islandora-collection-metadata">
       <?php if ($parent_collections): ?>
         <div>

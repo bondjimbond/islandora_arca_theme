@@ -25,6 +25,16 @@ function bceln_theme_form_system_theme_settings_alter(&$form, &$form_state, $for
     '#default_value' => theme_get_setting('bceln_theme_search_text'),
     '#description' => t("The search text to appear in the simple search box on the front page."),
   );
+  $form['bceln_theme_custom']['bceln_theme_collections_meta'] = array(
+    '#type' => 'select',
+    '#title' => t("Allow display of 'In collections' and 'Details' data on collection pages."),
+    '#options' => array(
+      0 => t('No'),
+      1 => t('Yes'),
+    ),
+    '#default_value' => theme_get_setting('bceln_theme_collections_meta'),
+    '#description' => t("While description will be shown when configured, collections data and colleciton details are hidden by default."),
+  );
   $form['bceln_theme_custom']['bceln_theme_front_background'] = array(
     '#type' => 'fieldset',
     '#title' => t('More'),

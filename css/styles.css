@@ -2424,6 +2424,11 @@ li a.islandora-view-list {
   margin-bottom: 0em;
 }
 
+/* line 97, ../sass/components/_islandora-object.scss */
+.islandora-collection-metadata li {
+  list-style: none;
+}
+
 /*
 * Frontpage CSS.
 */
@@ -2532,6 +2537,12 @@ li a.islandora-view-list {
   opacity: 0.5;
   padding: 10px;
   border-radius: 5px;
+}
+
+/* line 71, ../sass/components/_views.scss */
+.sort-by-image-link {
+  width: 100%;
+  height: 100%;
 }
 
 /*
