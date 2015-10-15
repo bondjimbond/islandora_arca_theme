@@ -25,6 +25,12 @@ function bceln_theme_form_system_theme_settings_alter(&$form, &$form_state, $for
     '#default_value' => theme_get_setting('bceln_theme_search_text'),
     '#description' => t("The search text to appear in the simple search box on the front page."),
   );
+  $form['bceln_theme_custom']['bceln_theme_search_heading'] = array(
+    '#type' => 'textarea',
+    '#title' => t('Front page search heading.'),
+    '#default_value' => theme_get_setting('bceln_theme_search_heading'),
+    '#description' => t("The welcome search box header text on the front page."),
+  );
   $form['bceln_theme_custom']['bceln_theme_collections_meta'] = array(
     '#type' => 'select',
     '#title' => t("Allow display of 'In collections' and 'Details' data on collection pages."),

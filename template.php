@@ -112,7 +112,7 @@ function bceln_theme_form_islandora_solr_simple_search_form_alter(&$form, &$form
   if (drupal_is_front_page()) {
     $form['simple']['header_text'] = array(
       '#weight' => -2,
-      '#markup' => "<h1>Discovery BC's Digital Treasures</h1>",
+      '#markup' => "<h1>" . theme_get_setting('bceln_theme_search_heading') . "</h1>",
     );
   if (theme_get_setting('bceln_theme_search_text')) {
     $form['simple']['hag_theme_text_search_text'] = array(

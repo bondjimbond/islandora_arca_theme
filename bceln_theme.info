@@ -144,6 +144,8 @@ settings[bceln_slideshow_pids]     = islandora:root
 settings[bceln_background_dsid]    = TN
 settings[bceln_show_basic_record]  = 1
 settings[bceln_theme_collections_meta] = 0
+settings[bceln_theme_search_heading] = Discovery BC's Digital Treasures
+
 ; To make this sub-theme an admin theme with shortcut links next to titles,
 ; uncomment the line below.
 
