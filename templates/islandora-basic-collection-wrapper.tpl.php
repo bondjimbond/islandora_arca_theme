@@ -10,10 +10,9 @@
 
 <div class="islandora-basic-collection-wrapper">
 
-  <?php if (!$display_metadata && !empty($dc_array['dc:description']['value'])): ?>
-    <p><?php print nl2br($dc_array['dc:description']['value']); ?></p>
-    <hr />
-  <?php endif; ?>
+  <?php if ($display_metadata):?>
+  <?php print $description; ?>
+  <?php endif;?>
   <?php print views_embed_view('sort_by_title', 'block'); ?>
   <div class="islandora-basic-collection clearfix">
     <div class="display-switch-wrapper">
@@ -37,7 +36,6 @@
   </div>
   <?php if ($display_metadata): ?>
     <div class="islandora-collection-metadata">
-      <?php print $description; ?>
       <?php if ($parent_collections): ?>
         <div>
           <h2><?php print t('In collections'); ?></h2>

@@ -11,8 +11,9 @@
  * Implements hook_preprocess().
  */
 function bceln_theme_preprocess_islandora_solr_metadata_display(array &$variables) {
-  // Retrieve an objects search result.
-  if (theme_get_setting('bceln_show_basic_record') > 0) {
+  // Retrieve an objects search result, hiding it on collection pages.
+  if (theme_get_setting('bceln_show_basic_record') > 0 &&
+    !in_array('islandora:collectionCModel', $variables['islandora_object']->models)) {
     $pid = $variables['islandora_object']->{'id'};
     $q = "islandora/search/$pid";
     $params = array(
@@ -22,6 +23,13 @@ function bceln_theme_preprocess_islandora_solr_metadata_display(array &$variable
     $search_result_view = islandora_solr($variables['islandora_object']->{'id'}, $params);
     $variables['search_result'] = $search_result_view;
   }
+}
+
+/**
+ * Implements hook_preprocess().
+ */
+function bceln_theme_preprocess_islandora_solr_metadata_description(array &$variables) {
+  $variables['combine'] = FALSE;
 }
 
 /**

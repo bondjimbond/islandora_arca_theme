@@ -19,7 +19,7 @@
  */
 ?>
 
-<?php if ($search_result):?>
+<?php if (isset($search_result)):?>
   <div class="object-search-result">
     <h2><?php print t('Basic Record View');?></h2>
     <?php print $search_result;?>

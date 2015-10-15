@@ -1755,7 +1755,7 @@ tr.selected td {
 /* line 823, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1398863088');
+  background-image: url('../images/progress.gif?1444859416');
 }
 
 /**
@@ -2057,15 +2057,15 @@ footer .nav-inner-wrapper {
 }
 /* line 95, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-objects-display-switch ul.links li a.display-bookmark, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-basic-collection-display-switch ul.links li a.display-bookmark, #block-islandora-solr-sort ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-sort ul.links li a.display-bookmark, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-display-switch ul.links li a.display-bookmark {
-  background-image: url('../images/display-bookmark.png?1437665023');
+  background-image: url('../images/display-bookmark.png?1444859416');
 }
 /* line 99, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display li a.display-default, .islandora-objects-display-switch ul.links li a.display-default, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-default, .islandora-basic-collection-display-switch ul.links li a.display-default, #block-islandora-solr-sort ul.islandora-solr-display li a.display-default, #block-islandora-solr-sort ul.links li a.display-default, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-default, #block-islandora-solr-display-switch ul.links li a.display-default {
-  background-image: url('../images/display-grid-list.png?1438019500');
+  background-image: url('../images/display-grid-list.png?1444859416');
 }
 /* line 103, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display li a.display-grid, .islandora-objects-display-switch ul.links li a.display-grid, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-grid, .islandora-basic-collection-display-switch ul.links li a.display-grid, #block-islandora-solr-sort ul.islandora-solr-display li a.display-grid, #block-islandora-solr-sort ul.links li a.display-grid, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-grid, #block-islandora-solr-display-switch ul.links li a.display-grid {
-  background-image: url('../images/display-grid.png?1438019500');
+  background-image: url('../images/display-grid.png?1444859416');
 }
 
 /* line 110, ../sass/components/_blocks.scss */
@@ -2390,12 +2390,12 @@ ul.islandora-solr-facet span {
 
 /* line 64, ../sass/components/_islandora-object.scss */
 li a.islandora-view-grid {
-  background-image: url('../images/display-grid.png?1438019500');
+  background-image: url('../images/display-grid.png?1444859416');
 }
 
 /* line 68, ../sass/components/_islandora-object.scss */
 li a.islandora-view-list {
-  background-image: url('../images/display-grid-list.png?1438019500');
+  background-image: url('../images/display-grid-list.png?1444859416');
 }
 
 /* line 73, ../sass/components/_islandora-object.scss */
@@ -2417,6 +2417,11 @@ li a.islandora-view-list {
   padding-right: 1em;
   padding-top: 0;
   text-align: right;
+}
+
+/* line 92, ../sass/components/_islandora-object.scss */
+.page-islandora-object .tabs-primary {
+  margin-bottom: 0em;
 }
 
 /*
@@ -2568,6 +2573,26 @@ fieldset.islandora-metadata dd p {
   margin-bottom: .1em;
 }
 
+/* line 37, ../sass/components/_metadata.scss */
+dl.islandora-inline-metadata dt {
+  /*   Instead of overriding every solution pack provided style CSS file, force it here  */
+  text-align: left !important;
+  padding-left: 10px !important;
+}
+
+/* line 44, ../sass/components/_metadata.scss */
+.collection-description-value > p {
+  background-color: white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px;
+}
+
+/* line 51, ../sass/components/_metadata.scss */
+div.islandora ul {
+  list-style: none;
+}
+
 /**
  * @file
  * Basic view grid styling for the advanced search Layout.
@@ -2635,7 +2660,7 @@ fieldset.islandora-metadata dd p {
   -webkit-transform: translateY(200%);
   -ms-transform: translateY(200%);
   transform: translateY(200%);
-  background: url('../images/add.png?1442595292');
+  background: url('../images/add.png?1444859416');
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -2660,7 +2685,7 @@ fieldset.islandora-metadata dd p {
   -webkit-transform: translateY(200%);
   -ms-transform: translateY(200%);
   transform: translateY(200%);
-  background: url('../images/rounded.png?1442595330');
+  background: url('../images/rounded.png?1444859416');
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
