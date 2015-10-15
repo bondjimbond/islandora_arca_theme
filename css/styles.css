@@ -2545,6 +2545,14 @@ li a.islandora-view-list {
   height: 100%;
 }
 
+/* line 76, ../sass/components/_views.scss */
+.sort-by-div-image-wrapper-outer {
+  background: url('../images/folder.png?1381953464') no-repeat center center;
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+}
+
 /*
 * Metadata CSS.
 */

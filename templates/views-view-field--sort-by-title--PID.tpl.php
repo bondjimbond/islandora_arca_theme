@@ -22,6 +22,7 @@
  * the view is modified.
  */
 ?>
+<div class="sort-by-div-image-wrapper sort-by-div-image-wrapper-outer">
 <div
   class="sort-by-div-image-wrapper"
   style="background: url(/islandora/object/<?php print $output?>/datastream/TN/view) no-repeat center center; background-size: cover; width:80px; height: 80px;">
@@ -29,3 +30,5 @@
    <div class="sort-by-image-link"></div>
   </a>
 </div>
+</div>
+
