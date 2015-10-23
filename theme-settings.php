@@ -63,6 +63,16 @@ function bceln_theme_form_system_theme_settings_alter(&$form, &$form_state, $for
     '#default_value' => theme_get_setting('bceln_show_basic_record'),
     '#description' => t("Show a basic search record on object view pages. Defaults to Yes"),
   );
+  $form['bceln_theme_custom']['bceln_theme_front_background']['bceln_show_collection_search'] = array(
+    '#type' => 'select',
+    '#title' => t('Display basic collection search'),
+    '#options' => array(
+      0 => t('No'),
+      1 => t('Yes'),
+    ),
+    '#default_value' => theme_get_setting('bceln_show_collection_search'),
+    '#description' => t("Show a collection based search view on collection pages"),
+  );
   $form['bceln_theme_custom']['bceln_theme_front_background']['bceln_background_dsid'] = array(
     '#type' => 'textfield',
     '#title' => t('Background object datastream.'),
