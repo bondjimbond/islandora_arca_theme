@@ -14,7 +14,9 @@
     <p><?php print nl2br($dc_array['dc:description']['value']); ?></p>
     <hr />
   <?php endif; ?>
+  <?php if(theme_get_setting('bceln_show_collection_search')):?>
   <?php print views_embed_view('sort_by_title', 'block'); ?>
+  <?php endif;?>
   <div class="islandora-basic-collection clearfix">
     <div class="display-switch-wrapper">
     <div>

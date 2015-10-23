@@ -140,6 +140,7 @@ settings[zen_html5_respond_meta][] = meta
 settings[zen_rebuild_registry]     = 1
 settings[zen_wireframes]           = 0
 
+settings[bceln_show_collection_search] = 1
 settings[bceln_slideshow_pids]     = islandora:root
 settings[bceln_background_dsid]    = TN
 settings[bceln_show_basic_record]  = 1
@@ -183,8 +184,12 @@ designkit[color][footer_top][title] = "Footer Top Border"
 designkit[color][footer_top][description] = "Footer Top Border color."
 designkit[color][footer_top][default] = "#ffffff"
 
-; Content Area color
-;designkit[color][content][title] = "Content color"
-;designkit[color][content][description] = "Content color."
-;designkit[color][content][default] = "#ffffff"
+; Front Search Box Area color
+designkit[color][front_box][title] = "Front Search Box color"
+designkit[color][front_box][description] = "Front Search Box color."
+designkit[color][front_box][default] = "#5b186a"
 
+; Header Menu color
+designkit[color][menu_color][title] = "Header Menu color"
+designkit[color][menu_color][description] = "Header Menu color."
+designkit[color][menu_color][default] = "#5b186a"

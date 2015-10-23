@@ -7,9 +7,12 @@
 }
 
 dl.islandora-inline-metadata{
-  letter-spacing: inherit !important;
+  letter-spacing: normal !important;
   h1{
     font-weight: normal;
+    a{
+      word-spacing: normal !important;
+    }
   }
 }
 
