@@ -37,9 +37,8 @@
     <?php print $collection_content; ?>
     <?php print $collection_pager; ?>
   </div>
-  <?php if ($display_metadata): ?>
+  <?php if ($display_metadata && theme_get_setting('bceln_theme_collections_meta') == 1): ?>
     <div class="islandora-collection-metadata">
-      <?php print $description; ?>
       <?php if ($parent_collections): ?>
         <div>
           <h2><?php print t('In collections'); ?></h2>
