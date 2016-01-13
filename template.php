@@ -25,9 +25,6 @@ function bceln_theme_preprocess_islandora_solr_metadata_display(array &$variable
   }
 }
 
-function bceln_theme_preprocess_islandora_person(&$variables) {
-// 	dsm($variables, "vars");
-}
 /**
  * Implements hook_preprocess().
  */
