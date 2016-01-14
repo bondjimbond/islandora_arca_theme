@@ -29,7 +29,7 @@
 <?php if ($found):
   if (!(empty($solr_fields) && variable_get('islandora_solr_metadata_omit_empty_values', FALSE))):?>
   <div>
-  <h2><?php print t('Descriptive Metadata');?></h2>
+  <h2><?php print theme_get_setting('bceln_meta_des');?></h2>
 <fieldset <?php $print ? print('class="islandora islandora-metadata"') : print('class="islandora islandora-metadata collapsible"');?>>
   <legend><span class="fieldset-legend"><?php print t('Details'); ?></span></legend>
   <div class="fieldset-wrapper">

@@ -79,4 +79,16 @@ function bceln_theme_form_system_theme_settings_alter(&$form, &$form_state, $for
     '#default_value' => theme_get_setting('bceln_background_dsid'),
     '#description' => t("Use this datastream on frontpage background collection pids as the source for the background. Defaults to TN"),
   );
+  $form['bceln_theme_custom']['bceln_theme_front_background']['bceln_bio_label'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Scholar or Person object Biography label'),
+    '#default_value' => theme_get_setting('bceln_bio_label'),
+    '#description' => t("The label used in place of 'Biography' on a Scholar object or Person object page. Defaults to 'Biography'"),
+  );
+  $form['bceln_theme_custom']['bceln_theme_front_background']['bceln_meta_des'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Descriptive Metadata Label'),
+    '#default_value' => theme_get_setting('bceln_meta_des'),
+    '#description' => t("The label used in place of 'Descriptive Metadata' in metadata display context. Defaults to 'Description'"),
+  );
 }
