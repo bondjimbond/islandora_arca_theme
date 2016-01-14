@@ -41,16 +41,18 @@
 .view-collection-item-details-view{
   .views-row{
     text-align: left;
-    .collection-item-details-field-label{
-      width: 22.5%;
-    }
+    
     .views-field{
       >div{
         display: inline-block;
       }
+      div:nth-child(1){
+        width: 22.5%;
+      }
     }
   }
 }
+
 .sort-by-div-image-wrapper{
   display: inline-block;
 }
