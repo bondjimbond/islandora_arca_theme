@@ -91,4 +91,14 @@ function bceln_theme_form_system_theme_settings_alter(&$form, &$form_state, $for
     '#default_value' => theme_get_setting('bceln_meta_des'),
     '#description' => t("The label used in place of 'Descriptive Metadata' in metadata display context. Defaults to 'Description'"),
   );
+  $form['bceln_theme_custom']['bceln_theme_front_background']['bceln_collection_items_details'] = array(
+    '#type' => 'select',
+    '#title' => t('Enable configurable list view Metadata'),
+    '#options' => array(
+      0 => t('No'),
+      1 => t('Yes'),
+    ),
+    '#default_value' => theme_get_setting('bceln_collection_items_details'),
+    '#description' => t("Enable the use of 'Collection Item Details View', embedded in the list view, allowing for dynamic Metadata display"),
+  );
 }

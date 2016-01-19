@@ -148,6 +148,7 @@ settings[bceln_theme_collections_meta] = 0
 settings[bceln_theme_search_heading] = Discovery BC's Digital Treasures
 settings[bceln_bio_label]            = Biography
 settings[bceln_meta_des]             = Description
+settings[bceln_collection_items_details] = 0
 
 ; To make this sub-theme an admin theme with shortcut links next to titles,
 ; uncomment the line below.
