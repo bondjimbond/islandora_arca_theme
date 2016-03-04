@@ -1755,7 +1755,7 @@ tr.selected td {
 /* line 823, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1452699988');
+  background-image: url('../images/progress.gif?1457118630');
 }
 
 /**
@@ -2057,15 +2057,15 @@ footer .nav-inner-wrapper {
 }
 /* line 95, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-objects-display-switch ul.links li a.display-bookmark, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-basic-collection-display-switch ul.links li a.display-bookmark, #block-islandora-solr-sort ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-sort ul.links li a.display-bookmark, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-display-switch ul.links li a.display-bookmark {
-  background-image: url('../images/display-bookmark.png?1452699988');
+  background-image: url('../images/display-bookmark.png?1457118630');
 }
 /* line 99, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display li a.display-default, .islandora-objects-display-switch ul.links li a.display-default, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-default, .islandora-basic-collection-display-switch ul.links li a.display-default, #block-islandora-solr-sort ul.islandora-solr-display li a.display-default, #block-islandora-solr-sort ul.links li a.display-default, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-default, #block-islandora-solr-display-switch ul.links li a.display-default {
-  background-image: url('../images/display-grid-list.png?1452699988');
+  background-image: url('../images/display-grid-list.png?1457118630');
 }
 /* line 103, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display li a.display-grid, .islandora-objects-display-switch ul.links li a.display-grid, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-grid, .islandora-basic-collection-display-switch ul.links li a.display-grid, #block-islandora-solr-sort ul.islandora-solr-display li a.display-grid, #block-islandora-solr-sort ul.links li a.display-grid, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-grid, #block-islandora-solr-display-switch ul.links li a.display-grid {
-  background-image: url('../images/display-grid.png?1452699988');
+  background-image: url('../images/display-grid.png?1457118630');
 }
 
 /* line 110, ../sass/components/_blocks.scss */
@@ -2206,6 +2206,28 @@ ul.islandora-solr-facet span {
 /* line 233, ../sass/components/_blocks.scss */
 .islandora-basic-collection-wrapper hr {
   display: none;
+}
+
+/* Facet overflow fix */
+/* line 239, ../sass/components/_blocks.scss */
+ul.islandora-solr-facet > li > a {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  width: 7.8em;
+  margin-bottom: -0.5em;
+}
+
+/* Text wrapping issue fix */
+/* line 250, ../sass/components/_blocks.scss */
+.views-label {
+  vertical-align: top;
+}
+
+/* line 254, ../sass/components/_blocks.scss */
+.field-content {
+  width: 75%;
 }
 
 /**
@@ -2389,12 +2411,12 @@ ul.islandora-solr-facet span {
 
 /* line 64, ../sass/components/_islandora-object.scss */
 li a.islandora-view-grid {
-  background-image: url('../images/display-grid.png?1452699988');
+  background-image: url('../images/display-grid.png?1457118630');
 }
 
 /* line 68, ../sass/components/_islandora-object.scss */
 li a.islandora-view-list {
-  background-image: url('../images/display-grid-list.png?1452699988');
+  background-image: url('../images/display-grid-list.png?1457118630');
 }
 
 /* line 73, ../sass/components/_islandora-object.scss */
@@ -2559,7 +2581,7 @@ li a.islandora-view-list {
 
 /* line 90, ../sass/components/_views.scss */
 .sort-by-div-image-wrapper-outer {
-  background: url('../images/folder.png?1452699988') no-repeat center center;
+  background: url('../images/folder.png?1457118630') no-repeat center center;
   background-size: cover;
   width: 80px;
   height: 80px;
@@ -2695,7 +2717,7 @@ div.islandora ul {
   -webkit-transform: translateY(200%);
   -ms-transform: translateY(200%);
   transform: translateY(200%);
-  background: url('../images/add.png?1452699988');
+  background: url('../images/add.png?1457118630');
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -2720,7 +2742,7 @@ div.islandora ul {
   -webkit-transform: translateY(200%);
   -ms-transform: translateY(200%);
   transform: translateY(200%);
-  background: url('../images/rounded.png?1452699988');
+  background: url('../images/rounded.png?1457118630');
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
