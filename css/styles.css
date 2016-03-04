@@ -1957,7 +1957,7 @@ footer .nav-inner-wrapper {
 **/
 /* line 6, ../sass/components/_blocks.scss */
 .not-front #navigation .nav-inner-wrapper .block-islandora-solr {
-  max-width: 493px;
+  max-width: 100%;
 }
 /* line 8, ../sass/components/_blocks.scss */
 .not-front #navigation .nav-inner-wrapper .block-islandora-solr #islandora-solr-simple-search-form {
@@ -2508,27 +2508,27 @@ li a.islandora-view-list {
 .view-collection-item-details-view .views-row {
   text-align: left;
 }
-/* line 46, ../sass/components/_views.scss */
+/* line 45, ../sass/components/_views.scss */
 .view-collection-item-details-view .views-row .views-field > div {
   display: inline-block;
 }
-/* line 49, ../sass/components/_views.scss */
+/* line 48, ../sass/components/_views.scss */
 .view-collection-item-details-view .views-row .views-field div:nth-child(1) {
   width: 22.5%;
 }
 
-/* line 56, ../sass/components/_views.scss */
+/* line 55, ../sass/components/_views.scss */
 .sort-by-div-image-wrapper {
   display: inline-block;
 }
 
-/* line 60, ../sass/components/_views.scss */
+/* line 59, ../sass/components/_views.scss */
 .views-field.views-field-dctitle.boundry.slideshow-title, .views-field.views-field-dctitle.slideshow-title.nav-inner-wrapper, .views-field.views-field-dctitle.slideshow-title.inner-header-wrapper {
   bottom: 100px;
   position: relative;
 }
 
-/* line 65, ../sass/components/_views.scss */
+/* line 64, ../sass/components/_views.scss */
 .field-content.title-field-content {
   box-sizing: border-box;
   float: right;
@@ -2540,7 +2540,7 @@ li a.islandora-view-list {
   text-align: right;
 }
 
-/* line 76, ../sass/components/_views.scss */
+/* line 75, ../sass/components/_views.scss */
 .slideshow-inner-title {
   display: inline-block;
   background-color: white;
@@ -2551,13 +2551,13 @@ li a.islandora-view-list {
   border-radius: 5px;
 }
 
-/* line 86, ../sass/components/_views.scss */
+/* line 85, ../sass/components/_views.scss */
 .sort-by-image-link {
   width: 100%;
   height: 100%;
 }
 
-/* line 91, ../sass/components/_views.scss */
+/* line 90, ../sass/components/_views.scss */
 .sort-by-div-image-wrapper-outer {
   background: url('../images/folder.png?1452699988') no-repeat center center;
   background-size: cover;
