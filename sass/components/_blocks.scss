@@ -234,18 +234,18 @@ ul.islandora-solr-facet{
   display: none;
 }
 
-/* Facet overflow & text wrapping fix */
+/* Facet overflow fix */
+ul.islandora-solr-facet > li > a {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    width: 7.8em;
+    margin-bottom: -0.5em;
+}
 
+/* Text wrapping fix */
 .view-collection-item-details-view {
-    ul.islandora-solr-facet > li > a {
-        text-overflow: ellipsis;
-        overflow: hidden;
-        white-space: nowrap;
-        display: inline-block;
-        width: 7.8em;
-        margin-bottom: -0.5em;
-    }
-
     .views-label {
         vertical-align: top;
     }
