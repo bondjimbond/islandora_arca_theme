@@ -234,23 +234,23 @@ ul.islandora-solr-facet{
   display: none;
 }
 
-/* Facet overflow fix */
+/* Facet overflow & text wrapping fix */
 
-ul.islandora-solr-facet > li > a {
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    display: inline-block;
-    width: 7.8em;
-    margin-bottom: -0.5em;
-}
+.view-collection-item-details-view {
+    ul.islandora-solr-facet > li > a {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        display: inline-block;
+        width: 7.8em;
+        margin-bottom: -0.5em;
+    }
 
-/* Text wrapping issue fix */
+    .views-label {
+        vertical-align: top;
+    }
 
-.views-label {
-    vertical-align: top;
-}
-
-.field-content {
-    width: 75%;
+    .field-content {
+        width: 75%;
+    }
 }

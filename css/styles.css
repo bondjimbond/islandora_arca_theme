@@ -2208,9 +2208,9 @@ ul.islandora-solr-facet span {
   display: none;
 }
 
-/* Facet overflow fix */
-/* line 239, ../sass/components/_blocks.scss */
-ul.islandora-solr-facet > li > a {
+/* Facet overflow & text wrapping fix */
+/* line 240, ../sass/components/_blocks.scss */
+.view-collection-item-details-view ul.islandora-solr-facet > li > a {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -2218,15 +2218,12 @@ ul.islandora-solr-facet > li > a {
   width: 7.8em;
   margin-bottom: -0.5em;
 }
-
-/* Text wrapping issue fix */
-/* line 250, ../sass/components/_blocks.scss */
-.views-label {
+/* line 249, ../sass/components/_blocks.scss */
+.view-collection-item-details-view .views-label {
   vertical-align: top;
 }
-
-/* line 254, ../sass/components/_blocks.scss */
-.field-content {
+/* line 253, ../sass/components/_blocks.scss */
+.view-collection-item-details-view .field-content {
   width: 75%;
 }
 
