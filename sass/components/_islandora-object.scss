@@ -61,20 +61,45 @@
   width: 30px;
 }
 
-li a.islandora-view-grid{
-      background-image: image-url('display-grid.png');
-      @extend %display-switch;
+.islandora-objects{
+  .islandora-object-thumb{
+    img{
+      border-radius: 5px;
     }
-    li a.islandora-view-list{
-      background-image: image-url('display-grid-list.png');
-      @extend %display-switch;
-    }
+  }
+  .islandora-objects-list-item{
+    border-bottom-color: #ddd;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 1.5em;
+  }
+}
+
+#block-islandora-solr-sort{
+  ul.islandora-solr-sort{
+    margin-top: 0px;
+    list-style: none;
+    padding-left: 0px;
+  }
+}
+
+li a.islandora-view-grid, .islandora-basic-collection-display-switch li.first a{
+  background-image: image-url('display-grid.png');
+  @extend %display-switch;
+}
+
+li a.islandora-view-list, .islandora-basic-collection-display-switch li.last a{
+  background-image: image-url('display-grid-list.png');
+  @extend %display-switch;
+}
 
 .islandora-basic-collection-display-switch {
   display: inline-block;
   float: right;
   ul{
     display: table !important;
+    float: right;
+    padding-top: 10px;
     li{
       display: table-cell !important;
       float: right;

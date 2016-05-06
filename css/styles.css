@@ -1755,7 +1755,7 @@ tr.selected td {
 /* line 823, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1457118630');
+  background-image: url('../images/progress.gif?1462475324');
 }
 
 /**
@@ -2035,7 +2035,7 @@ footer .nav-inner-wrapper {
 }
 
 /* line 79, ../sass/components/_blocks.scss */
-.islandora-objects-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-objects-display-switch ul.links li a.display-bookmark, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-basic-collection-display-switch ul.links li a.display-bookmark, #block-islandora-solr-sort ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-sort ul.links li a.display-bookmark, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-display-switch ul.links li a.display-bookmark, .islandora-objects-display-switch ul.islandora-solr-display li a.display-default, .islandora-objects-display-switch ul.links li a.display-default, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-default, .islandora-basic-collection-display-switch ul.links li a.display-default, #block-islandora-solr-sort ul.islandora-solr-display li a.display-default, #block-islandora-solr-sort ul.links li a.display-default, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-default, #block-islandora-solr-display-switch ul.links li a.display-default, .islandora-objects-display-switch ul.islandora-solr-display li a.display-grid, .islandora-objects-display-switch ul.links li a.display-grid, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-grid, .islandora-basic-collection-display-switch ul.links li a.display-grid, #block-islandora-solr-sort ul.islandora-solr-display li a.display-grid, #block-islandora-solr-sort ul.links li a.display-grid, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-grid, #block-islandora-solr-display-switch ul.links li a.display-grid, li a.islandora-view-grid, li a.islandora-view-list {
+.islandora-objects-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-objects-display-switch ul.links li a.display-bookmark, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-basic-collection-display-switch ul.links li a.display-bookmark, #block-islandora-solr-sort ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-sort ul.links li a.display-bookmark, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-display-switch ul.links li a.display-bookmark, .islandora-objects-display-switch ul.islandora-solr-display li a.display-default, .islandora-objects-display-switch ul.links li a.display-default, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-default, .islandora-basic-collection-display-switch ul.links li a.display-default, #block-islandora-solr-sort ul.islandora-solr-display li a.display-default, #block-islandora-solr-sort ul.links li a.display-default, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-default, #block-islandora-solr-display-switch ul.links li a.display-default, .islandora-objects-display-switch ul.islandora-solr-display li a.display-grid, .islandora-objects-display-switch ul.links li a.display-grid, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-grid, .islandora-basic-collection-display-switch ul.links li a.display-grid, #block-islandora-solr-sort ul.islandora-solr-display li a.display-grid, #block-islandora-solr-sort ul.links li a.display-grid, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-grid, #block-islandora-solr-display-switch ul.links li a.display-grid, li a.islandora-view-grid, .islandora-basic-collection-display-switch li.first a, li a.islandora-view-list, .islandora-basic-collection-display-switch li.last a {
   background-repeat: no-repeat;
   line-height: 0;
   font-size: 0;
@@ -2057,15 +2057,15 @@ footer .nav-inner-wrapper {
 }
 /* line 95, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-objects-display-switch ul.links li a.display-bookmark, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-basic-collection-display-switch ul.links li a.display-bookmark, #block-islandora-solr-sort ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-sort ul.links li a.display-bookmark, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-display-switch ul.links li a.display-bookmark {
-  background-image: url('../images/display-bookmark.png?1457118630');
+  background-image: url('../images/display-bookmark.png?1462475324');
 }
 /* line 99, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display li a.display-default, .islandora-objects-display-switch ul.links li a.display-default, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-default, .islandora-basic-collection-display-switch ul.links li a.display-default, #block-islandora-solr-sort ul.islandora-solr-display li a.display-default, #block-islandora-solr-sort ul.links li a.display-default, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-default, #block-islandora-solr-display-switch ul.links li a.display-default {
-  background-image: url('../images/display-grid-list.png?1457118630');
+  background-image: url('../images/display-grid-list.png?1462475324');
 }
 /* line 103, ../sass/components/_blocks.scss */
 .islandora-objects-display-switch ul.islandora-solr-display li a.display-grid, .islandora-objects-display-switch ul.links li a.display-grid, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-grid, .islandora-basic-collection-display-switch ul.links li a.display-grid, #block-islandora-solr-sort ul.islandora-solr-display li a.display-grid, #block-islandora-solr-sort ul.links li a.display-grid, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-grid, #block-islandora-solr-display-switch ul.links li a.display-grid {
-  background-image: url('../images/display-grid.png?1457118630');
+  background-image: url('../images/display-grid.png?1462475324');
 }
 
 /* line 110, ../sass/components/_blocks.scss */
@@ -2397,7 +2397,7 @@ ul.islandora-solr-facet > li > a {
 }
 
 /* line 53, ../sass/components/_islandora-object.scss */
-.islandora-objects-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-objects-display-switch ul.links li a.display-bookmark, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-basic-collection-display-switch ul.links li a.display-bookmark, #block-islandora-solr-sort ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-sort ul.links li a.display-bookmark, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-display-switch ul.links li a.display-bookmark, .islandora-objects-display-switch ul.islandora-solr-display li a.display-default, .islandora-objects-display-switch ul.links li a.display-default, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-default, .islandora-basic-collection-display-switch ul.links li a.display-default, #block-islandora-solr-sort ul.islandora-solr-display li a.display-default, #block-islandora-solr-sort ul.links li a.display-default, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-default, #block-islandora-solr-display-switch ul.links li a.display-default, .islandora-objects-display-switch ul.islandora-solr-display li a.display-grid, .islandora-objects-display-switch ul.links li a.display-grid, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-grid, .islandora-basic-collection-display-switch ul.links li a.display-grid, #block-islandora-solr-sort ul.islandora-solr-display li a.display-grid, #block-islandora-solr-sort ul.links li a.display-grid, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-grid, #block-islandora-solr-display-switch ul.links li a.display-grid, li a.islandora-view-grid, li a.islandora-view-list {
+.islandora-objects-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-objects-display-switch ul.links li a.display-bookmark, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-bookmark, .islandora-basic-collection-display-switch ul.links li a.display-bookmark, #block-islandora-solr-sort ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-sort ul.links li a.display-bookmark, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-bookmark, #block-islandora-solr-display-switch ul.links li a.display-bookmark, .islandora-objects-display-switch ul.islandora-solr-display li a.display-default, .islandora-objects-display-switch ul.links li a.display-default, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-default, .islandora-basic-collection-display-switch ul.links li a.display-default, #block-islandora-solr-sort ul.islandora-solr-display li a.display-default, #block-islandora-solr-sort ul.links li a.display-default, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-default, #block-islandora-solr-display-switch ul.links li a.display-default, .islandora-objects-display-switch ul.islandora-solr-display li a.display-grid, .islandora-objects-display-switch ul.links li a.display-grid, .islandora-basic-collection-display-switch ul.islandora-solr-display li a.display-grid, .islandora-basic-collection-display-switch ul.links li a.display-grid, #block-islandora-solr-sort ul.islandora-solr-display li a.display-grid, #block-islandora-solr-sort ul.links li a.display-grid, #block-islandora-solr-display-switch ul.islandora-solr-display li a.display-grid, #block-islandora-solr-display-switch ul.links li a.display-grid, li a.islandora-view-grid, .islandora-basic-collection-display-switch li.first a, li a.islandora-view-list, .islandora-basic-collection-display-switch li.last a {
   background-repeat: no-repeat;
   line-height: 0;
   font-size: 0;
@@ -2408,26 +2408,47 @@ ul.islandora-solr-facet > li > a {
   width: 30px;
 }
 
-/* line 64, ../sass/components/_islandora-object.scss */
-li a.islandora-view-grid {
-  background-image: url('../images/display-grid.png?1457118630');
+/* line 66, ../sass/components/_islandora-object.scss */
+.islandora-objects .islandora-object-thumb img {
+  border-radius: 5px;
+}
+/* line 70, ../sass/components/_islandora-object.scss */
+.islandora-objects .islandora-objects-list-item {
+  border-bottom-color: #ddd;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-bottom: 1.5em;
 }
 
-/* line 68, ../sass/components/_islandora-object.scss */
-li a.islandora-view-list {
-  background-image: url('../images/display-grid-list.png?1457118630');
+/* line 79, ../sass/components/_islandora-object.scss */
+#block-islandora-solr-sort ul.islandora-solr-sort {
+  margin-top: 0px;
+  list-style: none;
+  padding-left: 0px;
 }
 
-/* line 73, ../sass/components/_islandora-object.scss */
+/* line 86, ../sass/components/_islandora-object.scss */
+li a.islandora-view-grid, .islandora-basic-collection-display-switch li.first a {
+  background-image: url('../images/display-grid.png?1462475324');
+}
+
+/* line 91, ../sass/components/_islandora-object.scss */
+li a.islandora-view-list, .islandora-basic-collection-display-switch li.last a {
+  background-image: url('../images/display-grid-list.png?1462475324');
+}
+
+/* line 96, ../sass/components/_islandora-object.scss */
 .islandora-basic-collection-display-switch {
   display: inline-block;
   float: right;
 }
-/* line 76, ../sass/components/_islandora-object.scss */
+/* line 99, ../sass/components/_islandora-object.scss */
 .islandora-basic-collection-display-switch ul {
   display: table !important;
+  float: right;
+  padding-top: 10px;
 }
-/* line 78, ../sass/components/_islandora-object.scss */
+/* line 103, ../sass/components/_islandora-object.scss */
 .islandora-basic-collection-display-switch ul li {
   display: table-cell !important;
   float: right;
@@ -2439,12 +2460,12 @@ li a.islandora-view-list {
   text-align: right;
 }
 
-/* line 92, ../sass/components/_islandora-object.scss */
+/* line 117, ../sass/components/_islandora-object.scss */
 .page-islandora-object .tabs-primary {
   margin-bottom: 0em;
 }
 
-/* line 97, ../sass/components/_islandora-object.scss */
+/* line 122, ../sass/components/_islandora-object.scss */
 .islandora-collection-metadata li {
   list-style: none;
 }
@@ -2580,7 +2601,7 @@ li a.islandora-view-list {
 
 /* line 90, ../sass/components/_views.scss */
 .sort-by-div-image-wrapper-outer {
-  background: url('../images/folder.png?1457118630') no-repeat center center;
+  background: url('../images/folder.png?1462475324') no-repeat center center;
   background-size: cover;
   width: 80px;
   height: 80px;
@@ -2716,7 +2737,7 @@ div.islandora ul {
   -webkit-transform: translateY(200%);
   -ms-transform: translateY(200%);
   transform: translateY(200%);
-  background: url('../images/add.png?1457118630');
+  background: url('../images/add.png?1462475324');
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -2741,7 +2762,7 @@ div.islandora ul {
   -webkit-transform: translateY(200%);
   -ms-transform: translateY(200%);
   transform: translateY(200%);
-  background: url('../images/rounded.png?1457118630');
+  background: url('../images/rounded.png?1462475324');
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
