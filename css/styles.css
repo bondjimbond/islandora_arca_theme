@@ -2564,23 +2564,18 @@ li a.islandora-view-list, .islandora-basic-collection-display-switch li.last a {
   width: 22.5%;
 }
 
-/* line 56, ../sass/components/_views.scss */
-.view-collection-item-details-view .field-content {
-  text-align: center;
-}
-
-/* line 61, ../sass/components/_views.scss */
+/* line 55, ../sass/components/_views.scss */
 .sort-by-div-image-wrapper {
   display: inline-block;
 }
 
-/* line 65, ../sass/components/_views.scss */
+/* line 59, ../sass/components/_views.scss */
 .views-field.views-field-dctitle.boundry.slideshow-title, .views-field.views-field-dctitle.slideshow-title.nav-inner-wrapper, .views-field.views-field-dctitle.slideshow-title.inner-header-wrapper {
   bottom: 100px;
   position: relative;
 }
 
-/* line 70, ../sass/components/_views.scss */
+/* line 64, ../sass/components/_views.scss */
 .field-content.title-field-content {
   box-sizing: border-box;
   float: right;
@@ -2592,7 +2587,7 @@ li a.islandora-view-list, .islandora-basic-collection-display-switch li.last a {
   text-align: right;
 }
 
-/* line 81, ../sass/components/_views.scss */
+/* line 75, ../sass/components/_views.scss */
 .slideshow-inner-title {
   display: inline-block;
   background-color: white;
@@ -2603,13 +2598,13 @@ li a.islandora-view-list, .islandora-basic-collection-display-switch li.last a {
   border-radius: 5px;
 }
 
-/* line 91, ../sass/components/_views.scss */
+/* line 85, ../sass/components/_views.scss */
 .sort-by-image-link {
   width: 100%;
   height: 100%;
 }
 
-/* line 96, ../sass/components/_views.scss */
+/* line 90, ../sass/components/_views.scss */
 .sort-by-div-image-wrapper-outer {
   background: url('../images/folder.png?1462475324') no-repeat center center;
   background-size: cover;
