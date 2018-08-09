@@ -69,10 +69,13 @@ function bceln_theme_preprocess_html(&$variables) {
     if (count($pids) > 0) {
       $pid = $pids[array_rand($pids)];
       $obj = islandora_object_load($pid);
-      $variables['slideshow_data'] = array(
-        'background_image' => "islandora/object/$pid/datastream/$pid_datastream/view",
-        'background_link' => l($obj->label, "islandora/object/$pid")
-      );
+
+      if ($obj) {
+        $variables['slideshow_data'] = array(
+          'background_image' => "islandora/object/$pid/datastream/$pid_datastream/view",
+          'background_link' => l($obj->label, "islandora/object/$pid")
+        );
+      }
     }
     module_load_include('inc', 'islandora_solr', 'includes/blocks');
     $block = islandora_solr_block_view('simple');
