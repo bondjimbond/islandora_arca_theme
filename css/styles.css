@@ -2664,7 +2664,7 @@ dl.islandora-inline-metadata dt {
 
 /* line 47, ../sass/components/_metadata.scss */
 .collection-description-value > p {
-  background-color: white;
+  background-color: inherit;
   box-sizing: border-box;
   margin: 0;
   padding: 10px;
